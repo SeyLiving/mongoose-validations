@@ -10,7 +10,7 @@ const generateToken = (user) => {
     { id: user._id, email: user.email },
     "740ff4139d78f5b58d31a703996b1ab72d9a038fa20b3f7da05ec619cec8ee77",
     {
-      expiresIn: "1h",
+      expiresIn: "8h",
     }
   );
   return {
